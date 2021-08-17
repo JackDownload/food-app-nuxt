@@ -11,9 +11,9 @@ export default {};
 
 <style lang="scss" scoped>
 .masthead {
+  padding: 40px 200px;
   width: 100%;
   height: 80vh; /* if you don't want it to take up the full screen, reduce this number */
-  padding: 40px;
   overflow: hidden;
   background-size: cover !important;
   background: radial-gradient(

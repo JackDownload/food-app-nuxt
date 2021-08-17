@@ -1,7 +1,9 @@
 <template>
-  <div class="content">
-    <AppMenu />
-    <Nuxt />
+  <div>
+    <div class="content">
+      <AppMenu />
+      <Nuxt />
+    </div>
     <Footer />
   </div>
 </template>

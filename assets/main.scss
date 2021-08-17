@@ -10,6 +10,7 @@ textarea {
 // sticky footer
 .content {
   min-height: calc(100vh - 50px);
+
 }
 
 footer {
@@ -19,7 +20,7 @@ footer {
 // nav
 
 nav {
-  padding: 5px 60px;
+  padding: 5px 200px;
   background: #082c40;
   color: white;
   position: relative;
@@ -40,6 +41,9 @@ nav {
 
     li {
       padding-right: 40px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
     }
   }
 }
@@ -258,7 +262,7 @@ table th {
   background: white;
   color: black;
   top: 9px;
-  right: 33px;
+  right: 172px;
   width: 25px;
   display: flex;
   text-align: center;
@@ -293,9 +297,11 @@ table th {
 
 .restaurant {
   .restaurantheading {
-    margin: 100px 0 20px 200px;
+    margin: 40px 200px 0 200px;
+    padding-bottom: 20px;
     display: flex;
     align-items: center;
+    border-bottom: 1px solid #082c40;
   }
 
   h1 {
