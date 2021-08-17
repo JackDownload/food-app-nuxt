@@ -1,4 +1,4 @@
-# food-app
+# food-app-nuxt
 
 Following Nuxt + Vue course 'Building Applications with Vue & Nuxt' by Sarah Drasner.
 
